@@ -1,29 +1,36 @@
-# Python Data Science Lab
+# School Shootings Data Analysis and Visualization
 
-## Code
-It is recommended that you create your code in a Jupyter Notebook (which is bundled with Anaconda) for this lab. You should develop code to satisfy the following requirements:
-* Import data of your choosing using the Pandas library.
-* Explore this data based on your questions from Lab 7, and new questions you come up with as you explore.
-* Use the Matplotlib library to develop visualizations as you go. Not all of these visualizations will be presentation-worthy, but you should keep them in your code to document your thought process.
-* Show and document your data analysis process in your code. The code that you turn in should show anyone reviewing it your entire data "pipeline": meaning how you went from source data to preliminary analysis and finally on to presentation-worthy analysis.
+This project focuses on analyzing and visualizing data related to school shootings in the United States. Using Python and popular libraries like Pandas, NumPy, and Matplotlib, the project provides insights into the temporal and geographical trends of incidents and their impact on victims.
 
-This code will be evaluated and included with your other lab assignments.
+## Features
+- **Data Cleaning and Preprocessing**:
+  - Merges datasets from multiple sources, ensuring consistency in column names and formats.
+  - Standardizes date formats for uniformity.
+  
+- **Descriptive Analysis**:
+  - Aggregates data by year to identify trends over time.
+  - Summarizes state-wise incidents and their impact.
 
-## Presentation
-* Your presentation must be a data story that includes visualizations. You are expected to show and explain at least 3 different visualizations.
-* You may show code snippets to discuss your approach if you chose to, however, that is not required.
-* Your presentation must include:
-  1. An explanation of your data set
-  2. An explanation of your questions
-  3. The results of your analysis, supported by visualizations (this should be the ***majority*** of your presentation)
-  4. Assumptions you had to made in your analysis or about the data itself
-  5. The level of certainty you have (or do not have) about any conclusions you made in your presentation
-  6. A description of potential ethical concerns in using this data/analysis to make decisions
-* Presentations will be given in-person during the course's scheduled final exam period.
-* Presentations should be between 8-10 minutes, and students will be expected to answer questions afterwards.
+- **Data Visualization**:
+  - Line plots to illustrate the yearly trend of school shootings.
+  - Bar charts showing the distribution of incidents by state.
+  - Pie charts for visualizing the proportion of victims killed versus injured.
+  - Dual bar plots and line charts for comparative analyses of victims by state and year.
 
-This presentation will be evaluated and will count as part of your final course grade.
+## Insights Provided
+- Temporal trends in school shootings across the United States.
+- Geographical distribution of incidents by state.
+- The overall impact of school shootings in terms of victims killed and injured.
+- Comparative analysis of fatalities and injuries over time and by state.
 
-## Submit
-* Commit your well-documented code to the GitHub repository.
-* Commit your presentation slides in ***PDF format*** (one page per slide) to the GitHub repository. You will present from this PDF.
+## Requirements
+To run the project, ensure you have the following installed:
+- **Python 3.8+**
+- Required Python libraries:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+
+Install the dependencies using:
+```bash
+pip install pandas numpy matplotlib
